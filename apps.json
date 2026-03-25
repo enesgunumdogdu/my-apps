@@ -8,7 +8,8 @@
   },
   "categories": [
     { "id": "weather", "name": "Weather" },
-    { "id": "ios", "name": "iOS" }
+    { "id": "ios", "name": "iOS" },
+    { "id": "lifestyle", "name": "Lifestyle" }
   ],
   "apps": [
     {
@@ -38,6 +39,35 @@
         "No ads, no tracking — privacy-focused"
       ],
       "requirements": "iOS 15.0 or later"
+    },
+    {
+      "id": "seasons-solstice-tracker",
+      "name": "Seasons: Solstice Tracker",
+      "subtitle": "Moon, Progress & Widgets",
+      "description": "See exactly where you stand in the year — season progress, solstice countdowns, moon phases, and beautiful animated themes.",
+      "longDescription": "Seasons shows exactly where you stand in the year — the percentage through your current season, days remaining, and the countdown to the next solstice or equinox. Track all 8 moon phases with illumination percentage, get location-based sunrise and sunset times, and visualize the year with a unique staggered dot grid. Choose from five hand-crafted animated themes, add widgets to your home screen, lock screen, and StandBy, and get notified when seasons change. Supports 85 countries, both hemispheres, and 6 languages.",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/03/a0/bb/03a0bb0a-e3e9-b128-17cf-cc4372f0bdd5/AppIcon-0-0-1x_U007epad-0-1-85-220.png/512x512bb.jpg",
+      "iconEmoji": "🌗",
+      "iconStyle": {
+        "borderRadius": "22%"
+      },
+      "category": ["weather", "ios", "lifestyle"],
+      "platform": "iOS",
+      "price": "Free",
+      "github": "https://github.com/enesgunumdogdu/my-apps",
+      "homepage": "https://apps.apple.com/us/app/seasons-solstice-tracker/id6758998537",
+      "features": [
+        "Season progress with percentage and days remaining",
+        "Precise solstice and equinox countdowns",
+        "All 8 moon phases with illumination percentage",
+        "Location-based sunrise and sunset times",
+        "Unique staggered dot grid visualization",
+        "5 hand-crafted animated themes",
+        "Home screen, lock screen, and StandBy widgets",
+        "Supports 85 countries and both hemispheres",
+        "Season change notifications with customizable intervals"
+      ],
+      "requirements": "iOS 17.0 or later"
     }
   ]
 }
