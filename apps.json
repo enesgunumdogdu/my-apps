@@ -1,0 +1,43 @@
+{
+  "$schema": "https://wvw.dev/apps.schema.json",
+  "store": {
+    "name": "Enes Günümdoğdu",
+    "developer": "Enes Gunumdogdu",
+    "tagline": "Fun and creative mobile apps.",
+    "github": "https://github.com/enesgunumdogdu"
+  },
+  "categories": [
+    { "id": "weather", "name": "Weather" },
+    { "id": "ios", "name": "iOS" }
+  ],
+  "apps": [
+    {
+      "id": "cartoon-weather",
+      "name": "Cartoon Weather",
+      "subtitle": "Animated Themes & Live Widgets",
+      "description": "A fun weather app with animated cartoon characters that react to real weather conditions. No boring static icons anymore.",
+      "longDescription": "Cartoon Weather transforms the everyday task of checking the weather into a delightful visual experience. Instead of static icons and plain numbers, you get beautiful full-screen animated characters that react to actual weather conditions. Choose from seven unique character themes, get accurate hourly and 7-day forecasts, air quality index, UV index, humidity, wind speed, and more. Customize your home screen with animated widgets and track weather for up to 5 locations. Privacy-focused with no ads and no tracking.",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/64/24/f4/6424f465-728a-e6af-6caf-4eeaf85391b8/AppIcon-0-0-1x_U007epad-0-1-85-220.png/512x512bb.jpg",
+      "iconEmoji": "🌤️",
+      "iconStyle": {
+        "borderRadius": "22%"
+      },
+      "category": ["weather", "ios"],
+      "platform": "iOS",
+      "price": "Free",
+      "github": "https://github.com/enesgunumdogdu/cartoon-weather",
+      "homepage": "https://apps.apple.com/app/cartoon-weather-fun-forecast/id6757344541",
+      "features": [
+        "7 unique animated character themes that react to real weather",
+        "24-hour hourly and 7-day extended forecasts",
+        "Air quality index, UV index, humidity, and wind speed",
+        "Customizable animated home screen widgets",
+        "Multi-location support for up to 5 cities",
+        "Push notifications for rain, snow, and severe weather",
+        "Available in 19 languages",
+        "No ads, no tracking — privacy-focused"
+      ],
+      "requirements": "iOS 15.0 or later"
+    }
+  ]
+}
